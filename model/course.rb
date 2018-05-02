@@ -3,3 +3,4 @@ class Course
   COURSES = []
 
   def initialize(args)
+    @name = args[:name]
