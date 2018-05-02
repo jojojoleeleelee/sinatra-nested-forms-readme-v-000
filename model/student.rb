@@ -5,3 +5,4 @@ class Student
 
   def initialize(params)
     @name = params[:name]
+    @grade = params
