@@ -5,3 +5,5 @@ class Course
   def initialize(args)
     @name = args[:name]
     @topic = arg[:topic]
+    COURSES << self
+  end
