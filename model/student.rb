@@ -7,3 +7,7 @@ class Student
     @name = params[:name]
     @grade = params[:grade]
     STUDENTS << self
+  end
+
+  def self.all
+    STUDENTS
