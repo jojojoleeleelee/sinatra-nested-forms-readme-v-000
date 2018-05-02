@@ -1,2 +1,3 @@
 class Course
-  attr_reader :name
+  attr_reader :name, :topic
+  COURSES = []
