@@ -11,3 +11,5 @@ class Student
 
   def self.all
     STUDENTS
+  end
+end
